@@ -1,0 +1,22 @@
+.mp3-screen2-info-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.mp3-screen2-info-box__title,
+.mp3-screen2-info-box__singer {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+}
+.mp3-screen2-info-box__title {
+	font-size: 27px;
+	margin: 2px;
+	color: rgb(34,34,34);
+}
+.mp3-screen2-info-box__singer {
+	margin: 3px;
+	font-size: 20px;
+	font-weight: 400px;
+	color: rgba(34,34,34,0.4);
+}

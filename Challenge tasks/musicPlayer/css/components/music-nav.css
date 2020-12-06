@@ -1,0 +1,50 @@
+.music-header {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.music-header__box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.music-header__img {
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 50px;
+	margin: 0 5px;
+	background-color: #FFBD11; 
+}
+.music-header__dis {
+	width: 50%;
+}
+.music-header__title {
+	font-size: 50px;
+	font-weight: 700;
+}
+.music-header__singer {
+	font-size: 25px;
+	font-weight: 700;
+}
+.music-header__singer,
+.music-header__title {
+	margin: 10px 5px;
+}
+
+.music-header__box input {
+	margin: 10px 17px;
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	font-weight: 700;
+	gorder: 3px solid black;
+	border-radius: 50%;
+	box-shadow: 0px 5px black;
+
+}
+.music-header__box input:first-child {
+	width: 170px;
+	border-radius: 17px;
+}

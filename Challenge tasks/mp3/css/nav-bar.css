@@ -1,0 +1,14 @@
+.mp3-screen-nav {
+	width: 90%;
+	margin-top: 15px;
+}
+
+.mp3-screen-nav__list {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.mp3-screen-nav__link {
+	color: #222222;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+@import "reset.css";
+
+/*Screen 1*/
+@import "nav-bar.css";
+@import "mp3-screen-artist.css";
+@import "mp3-screen-playlist.css";
+@import "mp3-screen-playbar.css";
+
+/*Screen 2*/
+@import "mp3-screen2-img.css";
+@import "mp3-screen2-info-box.css";
+@import "mp3-screen2-length.css";
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.mp3-screen {
+	width: 300px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 30px;
+	margin: 50px;
+	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+
+.mp3-screen2__nav {
+	height: 40px;
+	width: 80%;
+	margin-bottom: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mp3-screen2__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	width: 100%
+}
+.fa-step-backward,
+.fa-play,
+.fa-step-forward {
+	color: #222222;
+}
+.fa-sync-alt,
+.fa-random {
+	color: rgba(34, 34, 34, 0.3);
+}

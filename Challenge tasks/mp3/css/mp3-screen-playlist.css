@@ -1,0 +1,46 @@
+.mp3-screen-playlist {
+	width: 80%;
+	margin-top: 15px;
+}
+.mp3-screen-playlist__img {
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+}
+.mp3-screen-playlist__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.mp3-screen-playlist__song {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.mp3-screen-playlist__info-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mp3-screen-playlist__title-box {
+	margin-left: 20px;
+}
+.mp3-screen-playlist__singer,
+.mp3-screen-playlist__title {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	margin: 10px 0;
+	color: #222222;
+}
+.mp3-screen-playlist__singer {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.4);
+}
+.mp3-screen-playlist__title {
+	font-size: 15px;
+}
+
+#fa-ellipsis-v {
+	color: rgba(0, 0, 0, 0.3);
+}

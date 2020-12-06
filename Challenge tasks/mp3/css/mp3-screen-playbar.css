@@ -1,0 +1,39 @@
+.mp3-screen-playbar {
+	width: 90%;
+	height: 55px;
+	border: none;
+	border-radius: 40px;
+	background-color: #222222;
+	margin-bottom: 15px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.mp3-screen-playbar__info{
+	margin-left: 20px;
+}
+.mp3-screen-playbar__singer,
+.mp3-screen-playbar__title {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	margin: 5px 0;
+	color: #222222;
+}
+.mp3-screen-playbar__singer {
+	font-size: 13px;
+	color: rgba(255, 255, 255, 0.4);
+}
+.mp3-screen-playbar__title {
+	font-size: 14px;
+	color: white;
+}
+.mp3-screen-playbar__nav {
+	width: 60px;
+	margin-right: 20px;
+}
+.mp3-screen-playbar__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import "reset.css";
+
+/* Components */
+@import "components/nav-bar.css";
+@import "components/music-nav.css";
+
+
+/* Screens */
+@import "screen/start-screen.css";
+
+
+body {
+	margin: 0;
+	height: 100vh;
+	border: 5px solid #00C6AD;
+	box-sizing: border-box;
+}
+
+.next-nav {
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.next-nav__box {
+	display: flex;
+	margin-left: 90px;
+}
+.next-nav__img {
+	height: 60px;
+	width: 60px;
+	border: 2px solid black;
+	background-color: #F85A2A;
+	border-radius: 15px;
+	margin-right: 20px;
+}
+.next-nav__title {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 5px 0;
+}
+.next-nav__singer {
+	text-decoration-color: #323232;
+}
+.next-nav__bnt {
+	margin: 20px 0;
+}
+#next-nav__img1 {
+	background-color: #F85A2A;
+}
+#next-nav__img2 {
+	background-color: #FF89BB;
+}
+#next-nav__img3 {
+	background-color: #1847E5;
+}
+#next-nav__img4 {
+	background-color: #00C6AD;
+}

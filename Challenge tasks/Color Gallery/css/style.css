@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import "reset.css";
+@import "nav-bar.css";
+@import "search-bar.css";
+@import "recommend-bar.css";
+@import "popular-bar.css";
+@import "top-price-bar.css";
+
+
+
+body {
+	background-color: #FFD166;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}

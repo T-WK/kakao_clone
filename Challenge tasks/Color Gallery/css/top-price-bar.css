@@ -1,0 +1,42 @@
+.top-price-box {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 30px;
+}
+.top-price-bar {
+	width: 100%;
+	margin: 10px 0;
+}
+.top-price-bar__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.top-price-bar__btn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.top-price-bar__color-img {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: white;
+}
+.top-price-bar__price {
+	background-color: rgba(255, 255, 255, 0.3);
+	margin: 5px 0;
+	border-radius: 100%
+}
+#top-price-bar__color-img1 {
+	background-color: #FF0000;
+}
+#top-price-bar__color-img2 {
+	background-color: #00FF00;
+}
+#top-price-bar__color-img3 {
+	background-color: #0000FF;
+}

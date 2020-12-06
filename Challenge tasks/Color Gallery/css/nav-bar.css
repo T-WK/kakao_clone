@@ -1,0 +1,46 @@
+.nav-bar {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.nav-bar__list {
+	width: 100%;
+}
+.nav-bar__btn {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-bar__box {
+	width: 33%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-bar__box span {
+	font-family: 'Russo One', sans-serif;
+}
+
+#nav-bar__box1,
+#nav-bar__box2 {
+	position: relative;
+}
+
+#nav-bar__link1,
+#nav-bar__link2 {
+	position: absolute;
+}
+#nav-bar__link1 {
+	left: 4%;
+}
+#nav-bar__link2 {
+	right: 4%;
+}
+
+
+.nav-bar__btn span {
+	font-size: 20px;
+}

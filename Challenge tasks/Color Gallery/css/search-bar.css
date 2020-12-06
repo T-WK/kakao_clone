@@ -1,0 +1,28 @@
+.search-bar {
+	background-color: white;
+	margin: 30px 0px;
+	border-radius: 30px;
+	height: 30px;
+	width: 95%;
+
+	display: flex;
+	align-items: center;
+}
+
+.search-bar input {
+	border: none;
+	background-color: white;
+	width: 90%;
+	margin-left: 20px;
+	padding: 0;
+}
+.search-bar button {
+	border: none;
+	border-radius: 30px;
+	background-color: white;
+}
+.search-bar input::placeholder,
+.search-bar button i {
+	color: rgba(0, 0, 0, 0.2);
+	font-size: 17px;
+}

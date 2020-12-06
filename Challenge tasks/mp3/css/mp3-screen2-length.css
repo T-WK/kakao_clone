@@ -1,0 +1,22 @@
+.mp3-screen2-length {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+}
+.mp3-screen2-length__time-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 99%;
+}
+.mp3-screen2-length__time {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: rgba(34,34,34,0.4);
+}
+.mp3-screen2-length__range {
+	width: 100%;
+	border: none;
+}

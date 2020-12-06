@@ -1,0 +1,51 @@
+.recommend-bar {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 30px;
+}
+
+.recommend-bar__title {
+	font-size: 30px;
+	font-family: 'Russo One', sans-serif;
+	margin: 5px 0;
+}
+
+.recommend-bar__info {
+	display: flex;
+	align-items: center;
+}
+.recommend-bar__color-img {
+	border-radius: 20px;
+	border: 1px solid black;
+	width: 80px;
+	height: 80px;
+	background-color: #5EB0FF;
+}
+.recommend-bar__color {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 300px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.fa-star {
+	color: #FFBC00;
+}
+
+.recommend-bar__btn button {
+	border: none;
+}
+.fa-bookmark {
+	color: #FFBC00;
+	background-color: none;
+}
+
+.recommend-bar__subtitle,
+.recommend-bar__rating,
+.recommend-bar__btn {
+	margin: 5px;
+}

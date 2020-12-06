@@ -1,0 +1,48 @@
+.popular-box {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 10px;
+}
+.popular-bar {
+	width: 100%;
+	margin: 10px 0;
+}
+.popular-bar__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.popular-bar__btn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.popular-bar__color-img {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: white;
+}
+.popular-bar__rating {
+	background-color: rgba(255, 255, 255, 0.3);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 5px 0;
+	border-radius: 100%
+}
+#popular-bar__color-img1 {
+	background-color: #FC618D;
+}
+#popular-bar__color-img2 {
+	background-color: #6ED88F;
+}
+#popular-bar__color-img3 {
+	background-color: #FD9353;
+}
+#popular-bar__color-img4 {
+	background-color: #2C2C2C;
+}
